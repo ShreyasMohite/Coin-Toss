@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.content-center h1 {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+.content-center .toss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 1rem 0rem;
+}
+
+.content-center .toss button {
+  padding: 1rem;
+  width: 8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  background-color: orange;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin: 0rem 0.3rem;
+}
+
+.content-center .toss button:hover {
+  -webkit-box-shadow: 0px 0px 10px;
+          box-shadow: 0px 0px 10px;
+}
+/*# sourceMappingURL=main.css.map */

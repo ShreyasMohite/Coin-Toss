@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1 {
+        text-align: center;
+        margin: 1rem 0rem;
+    }
+    .toss {
+        display: flex;
+        justify-content: space-around;
+        margin: 1rem 0rem;
+        button {
+            padding: 1rem;
+            width: 8rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 12px;
+            background-color: orange;
+            cursor: pointer;
+            transition: 1s;
+            margin: 0rem 0.3rem;
+            &:hover {
+                box-shadow: 0px 0px 10px;
+            }
+        }
+    }
+}
